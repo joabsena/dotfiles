@@ -13,7 +13,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({ { import = "joab.plugins" }, { import = "joab.plugins.lsp" } }, {
  install = {
-   colorscheme = { "nightlfy" }, 
+   colorscheme = { "palenightfall" },
  },
  checker = {
    enabled = true,
@@ -23,3 +23,4 @@ require("lazy").setup({ { import = "joab.plugins" }, { import = "joab.plugins.ls
    notify = false,
  },
 })
+
